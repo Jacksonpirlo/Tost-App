@@ -1,6 +1,6 @@
 # 🩺 **TostApp** - Resumen Médico Inteligente 🤖
 
-TostApp es una aplicación innovadora que utiliza **inteligencia artificial** para transformar las conversaciones entre **médicos** y **pacientes** en resúmenes claros y detallados. La aplicación graba lo que el paciente dice, lo procesa mediante IA y genera un resumen para facilitar la consulta y análisis por parte del médico. ¡Una forma eficiente de mejorar las consultas médicas! 🏥💬
+TostApp es una aplicación que mejora la calidad de la atención al paciente y la eficiencia del profesional de la salud mediante un asistente de IA que proporciona información relevante, soporte para la toma de decisiones y automatización de tareas administrativas directamente durante la consulta médica. El objetivo es reducir la carga cognitiva del profesional, minimizar errores, agilizar el flujo de trabajo y permitir un enfoque más centrado en el paciente. 🏥💬
 
 ---
 
