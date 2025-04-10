@@ -107,15 +107,48 @@ El médico será quien inicie la grabación utilizando un servicio de **grabaci�
 2. Base de conocimiento de enfermedades  
 3. Priorización con niveles de evidencia  
 
+[Ver Jira ([https://tu-jira-url.com](https://tostapp.atlassian.net/jira/software/projects/SCRUM/settings/issuetypes/10004))
+
+## 🏥 Asistente Médico Inteligente - Analisis
+
+🎙️ 1. Asistenete autonomo basado en IA, con diagnóstico personalizado
+User Story:  
+"'Resume el historial del paciente→ Recibo audio con datos clave."
+
+Stack Técnico:  
+- Reconocimiento de voz médico y paciente  
+- NLP para filtrado contextual  
+💡 API a utilizar Amazon Transcribe Medical o Google speech to text.
+
+📋 2. Resumen Inteligente de Historial Clínico
+User Story:  
+"Como médico, quiero un resumen automático del historial del paciente relevante a mi especialidad, para agilizar la consulta."
+
+Tecnologías: 
+- NLP para extracción de datos clave (EHR)  
+- Algoritmos de relevancia contextual  
+- Visualización jerarquizada  
+
+ 🔍 3. Soporte para Diagnóstico Diferencial
+User Story:  
+"Necesito sugerencias de diagnósticos basadas en síntomas e historial, con evidencia médica."
+
+Flujo:  
+1. Asociación con universidades y sus bases de datos médicas
+2. Base de conocimiento de enfermedades  
+3. Priorización con niveles de evidencia  
+🛠️ Dificultad: Alta (validación médica requerida)
+
+ 🗃️ 4. Base de Conocimiento Médico
+User Story:  
+"Acceso rápido a información validada (guías, PubMed) durante la consulta."
 
 -- Algunas Featues no disponibles en Jira:
 
-Features:  
+Features:
 - Búsqueda semántica contextual  
 - Integración con UpToDate  
 - Alertas de actualizaciones
-
-[Ver Jira ([https://tu-jira-url.com](https://tostapp.atlassian.net/jira/software/projects/SCRUM/settings/issuetypes/10004))
 
 ## 🔧 QA Tester - Pruebas
 Casos de prueba:
