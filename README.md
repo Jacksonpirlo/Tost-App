@@ -110,12 +110,12 @@ El médico será quien inicie la grabación utilizando un servicio de **grabaci�
 
 -- Algunas Featues no disponibles en Jira:
 
-[Ver Jira ([https://tu-jira-url.com](https://tostapp.atlassian.net/jira/software/projects/SCRUM/settings/issuetypes/10004))
-
 Features:  
 - Búsqueda semántica contextual  
 - Integración con UpToDate  
 - Alertas de actualizaciones
+
+[Ver Jira ([https://tu-jira-url.com](https://tostapp.atlassian.net/jira/software/projects/SCRUM/settings/issuetypes/10004))
 
 ## 🔧 QA Tester - Pruebas
 Casos de prueba:
