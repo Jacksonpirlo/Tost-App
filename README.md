@@ -42,8 +42,10 @@ TostApp resuelve el desafío de la **toma de notas durante las consultas médica
 
 3. **🧑‍💻 Boceto de Interfaz**
    
-![lBoceto de interfaz 1(./template/img04.jpeg)
-![Boceto de Interfaz 2](./template/img05.jpeg)
+<img src="./template/img04.jpeg" alt="Boceto de Interfaz 1" width="700" />
+
+<img src="./template/img04.jpeg" alt="Boceto de Interfaz 2" width="700" />
+
 
 ### **Flujo de usuario**:
 
