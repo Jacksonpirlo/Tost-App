@@ -1,5 +1,8 @@
 # 🩺 **TostApp** - Resumen Médico Inteligente 🤖
 
+<img src="./template/img09.jpeg" alt="Boceto de Interfaz 1" width="600" height="300px" />
+
+
 TostApp es una aplicación que mejora la calidad de la atención al paciente y la eficiencia del profesional de la salud mediante un asistente de IA que proporciona información relevante, soporte para la toma de decisiones y automatización de tareas administrativas directamente durante la consulta médica. El objetivo es reducir la carga cognitiva del profesional, minimizar errores, agilizar el flujo de trabajo y permitir un enfoque más centrado en el paciente. 🏥💬
 
 ---
