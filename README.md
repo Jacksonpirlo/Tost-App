@@ -30,6 +30,8 @@ TostApp resuelve el desafío de la **toma de notas durante las consultas médica
 
 ## 🖌️ **Diseño**
 
+![Ilustracion de diseño](./template/img01.jpeg)
+
 ### **Pantallas clave**:
 
 1. **🖥️ Pantalla de inicio - Médico**:
@@ -50,17 +52,65 @@ TostApp resuelve el desafío de la **toma de notas durante las consultas médica
 
 ## 🛠️ **Implementación**
 
--- Por definirse
+INICIO
+
+    // Paso 1: El médico inicia la grabación de la consulta
+    MEDICO: Iniciar grabación de voz del paciente
+
+    // Paso 2: Capturar la conversación (audio) durante la consulta
+    GRABAR_AUDIO = iniciar_grabacion()
+
+    // Paso 3: El médico finaliza la grabación cuando la consulta termina
+    MEDICO: Detener grabación de voz
+
+    // Paso 4: Enviar el archivo de audio a la IA para transcripción
+    AUDIO_GRABADO = obtener_audio_grabado()
+    TEXTO_TRANSCRITO = transcribir_audio_a_texto(AUDIO_GRABADO)
+
+    // Paso 5: Procesar el texto para extraer información relevante (puntos clave)
+    SI TEXTO_TRANSCRITO es válido:
+        PUNTOS_CLAVE = extraer_informacion_relevante(TEXTO_TRANSCRITO)
+
+        // Paso 6: Generar el resumen médico con los puntos clave
+        RESUMEN_MEDICO = generar_resumen_IA(PUNTOS_CLAVE)
+
+        // Paso 7: Mostrar el resumen médico al médico
+        mostrar_resumen(RESUMEN_MEDICO)
+    SINO:
+        RETORNAR "Error en la transcripción del audio"
+FIN
+
 
 ### **Estrategia de implementación**:
 
 El médico será quien inicie la grabación utilizando un servicio de **grabación de voz nativo** de los dispositivos móviles para captar el audio del paciente. Luego, el backend procesa el audio utilizando modelos de IA que convierten el audio a texto. Finalmente, otro modelo de IA se encarga de **resumir** la información clave para el médico.
 
--- Diagrama o Pseudocodigo
--- Por definirse
+ ## Diagrama
+
+![Ilustracion de diagrama](./template/img02.jpeg)
+
+## Costos estimados
+
+![Ilustracion de costos](./template/img03.jpeg)
+
+## Datos A Considerar
+
+## Flujo:  
+1. Asociación con universidades y sus bases de datos médicas
+2. Base de conocimiento de enfermedades  
+3. Priorización con niveles de evidencia  
 
 
-🔧 QA Tester - Pruebas
+-- Algunas Featues no disponibles en Jira:
+
+[Ver Jira ([https://tu-jira-url.com](https://tostapp.atlassian.net/jira/software/projects/SCRUM/settings/issuetypes/10004))
+
+Features:  
+- Búsqueda semántica contextual  
+- Integración con UpToDate  
+- Alertas de actualizaciones
+
+## 🔧 QA Tester - Pruebas
 Casos de prueba:
 
     🎤 Caso de prueba 1: Verificar que la grabación de audio se realiza correctamente y el archivo no está dañado.
