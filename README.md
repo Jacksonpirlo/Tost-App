@@ -40,6 +40,11 @@ TostApp resuelve el desafío de la **toma de notas durante las consultas médica
 2. **📋 Pantalla de resúmenes - Médico**:
    Esta pantalla muestra el resumen generado por la IA, con un diseño claro y limpio para facilitar la lectura y comprensión.
 
+3. **🧑‍💻 Boceto de Interfaz**
+   
+![lBoceto de interfaz 1(./template/img04.jpeg)
+![Boceto de Interfaz 2](./template/img05.jpeg)
+
 ### **Flujo de usuario**:
 
 1. **Médico**:
